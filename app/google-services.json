@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "20674486671",
+    "firebase_url": "https://abcdfor-kids.firebaseio.com",
+    "project_id": "abcdfor-kids",
+    "storage_bucket": "abcdfor-kids.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20674486671:android:bc0b41514b460c5b65abfa",
+        "android_client_info": {
+          "package_name": "com.nero.abcdforkids"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20674486671-6quh9b628hkpuo4ojfvgksbe9d8g2o2q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nero.abcdforkids",
+            "certificate_hash": "4dd2b5ea57924db715c9712d0ed0e9a245265232"
+          }
+        },
+        {
+          "client_id": "20674486671-lcnmceo2csktg5905a1984esjdii2pga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEkv_v2R6dnC3a6r7s7PcIPhypmgh6ua0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "20674486671-lcnmceo2csktg5905a1984esjdii2pga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
