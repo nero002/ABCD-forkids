@@ -1,28 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:weightSum="100"
     android:background="@drawable/blackboard"
     tools:context=".MainActivity">
 
-<androidx.viewpager.widget.ViewPager
-    android:layout_width="match_parent"
-    android:layout_height="0dp"
-    android:layout_weight="90"
-    android:id="@+id/view_pager" />
 
-<com.google.android.material.tabs.TabLayout
-    android:layout_width="match_parent"
+    <ImageButton
+        android:id="@+id/back_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_gravity="left"
+        android:scaleType="fitCenter"
+        android:src="@drawable/left" />
+
+    <androidx.viewpager.widget.ViewPager
+    android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    app:tabGravity="center"
-    app:tabBackground="@drawable/tab_selector"
-    android:id="@+id/tab_layout"
-    app:tabIndicatorHeight="0dp"
-    app:tabMaxWidth="10dp"/>
+    android:layout_weight="100"
+    android:id="@+id/view_pager"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="50dp"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/next_btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/next"
+            android:background="?android:attr/selectableItemBackground"
+            android:layout_alignParentRight="true"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="14dp" />
+        <ImageButton
+            android:id="@+id/last_btn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="12dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:scaleType="fitCenter"
+            android:src="@drawable/previous" />
+
+    </RelativeLayout>
 
 </LinearLayout>

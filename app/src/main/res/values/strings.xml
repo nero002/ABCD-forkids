@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ABCD(For Kids)</string>
+    <string name="start">START</string>
+    <string name="exit">EXIT</string>
 </resources>

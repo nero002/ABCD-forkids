@@ -17,9 +17,7 @@ import com.nero.abcdforkids.models.Alphabet;
 
 public class ViewPagerItemFragment extends Fragment {
 
-    //Widgets
     private ImageView mImageView;
-    private TextView mTitle;
 
 
     //vars
@@ -54,7 +52,6 @@ public class ViewPagerItemFragment extends Fragment {
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         mImageView = view.findViewById(R.id.image);
-        mTitle = view.findViewById(R.id.title);
 
         init();
     }
@@ -67,7 +64,6 @@ public class ViewPagerItemFragment extends Fragment {
                     .setDefaultRequestOptions(options)
                     .load(mAlphabet.getImage())
                     .into(mImageView);
-            mTitle.setText(mAlphabet.getTitle());
 
         }
     }
